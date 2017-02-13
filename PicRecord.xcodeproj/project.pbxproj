@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F55A0BDC8B8E47104F23E8B /* libPods-PicRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19465198487EC464AE801472 /* libPods-PicRecord.a */; };
+		67E0D327A30C78113AECD722 /* libPods-PicRecordTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C314D5F6C36E775D16839FC1 /* libPods-PicRecordTests.a */; };
+		C332E976530CC0903B46379E /* libPods-PicRecordUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 000CEAF164220FA8B8A129DA /* libPods-PicRecordUITests.a */; };
 		F57C3D7E1E515C9800A8480C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D7D1E515C9800A8480C /* main.m */; };
 		F57C3D811E515C9800A8480C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D801E515C9800A8480C /* AppDelegate.m */; };
 		F57C3D841E515C9800A8480C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D831E515C9800A8480C /* ViewController.m */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000CEAF164220FA8B8A129DA /* libPods-PicRecordUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PicRecordUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C8A4D9A0F88EA9F7222880 /* Pods-PicRecordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicRecordUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicRecordUITests/Pods-PicRecordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19465198487EC464AE801472 /* libPods-PicRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PicRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEB4C553CE7934A1E6B84E7 /* Pods-PicRecordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicRecordUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicRecordUITests/Pods-PicRecordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		489F0342A6046B83E882EF25 /* Pods-PicRecordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicRecordTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicRecordTests/Pods-PicRecordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68C23611A5C357278A2E1ECC /* Pods-PicRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicRecord/Pods-PicRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		828EE892D784277F5FBFBC51 /* Pods-PicRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicRecord/Pods-PicRecord.release.xcconfig"; sourceTree = "<group>"; };
+		C314D5F6C36E775D16839FC1 /* libPods-PicRecordTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PicRecordTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61B138311F59B89B064611C /* Pods-PicRecordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicRecordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicRecordTests/Pods-PicRecordTests.release.xcconfig"; sourceTree = "<group>"; };
 		F57C3D791E515C9800A8480C /* PicRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57C3D7D1E515C9800A8480C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F57C3D7F1E515C9800A8480C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F55A0BDC8B8E47104F23E8B /* libPods-PicRecord.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E0D327A30C78113AECD722 /* libPods-PicRecordTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C332E976530CC0903B46379E /* libPods-PicRecordUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4B9156FE531C9C22973217 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68C23611A5C357278A2E1ECC /* Pods-PicRecord.debug.xcconfig */,
+				828EE892D784277F5FBFBC51 /* Pods-PicRecord.release.xcconfig */,
+				489F0342A6046B83E882EF25 /* Pods-PicRecordTests.debug.xcconfig */,
+				C61B138311F59B89B064611C /* Pods-PicRecordTests.release.xcconfig */,
+				17C8A4D9A0F88EA9F7222880 /* Pods-PicRecordUITests.debug.xcconfig */,
+				2FEB4C553CE7934A1E6B84E7 /* Pods-PicRecordUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD82B7809A1518E97B88261F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19465198487EC464AE801472 /* libPods-PicRecord.a */,
+				C314D5F6C36E775D16839FC1 /* libPods-PicRecordTests.a */,
+				000CEAF164220FA8B8A129DA /* libPods-PicRecordUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F57C3D701E515C9800A8480C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				F57C3D951E515C9800A8480C /* PicRecordTests */,
 				F57C3DA01E515C9800A8480C /* PicRecordUITests */,
 				F57C3D7A1E515C9800A8480C /* Products */,
+				0C4B9156FE531C9C22973217 /* Pods */,
+				BD82B7809A1518E97B88261F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F57C3DA61E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecord" */;
 			buildPhases = (
+				4DFC5BB439E16F1E966091B9 /* [CP] Check Pods Manifest.lock */,
 				F57C3D751E515C9800A8480C /* Sources */,
 				F57C3D761E515C9800A8480C /* Frameworks */,
 				F57C3D771E515C9800A8480C /* Resources */,
+				C9272DA548D0E2D363355EB2 /* [CP] Embed Pods Frameworks */,
+				555A6B052788092E7955E85C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F57C3DA91E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecordTests" */;
 			buildPhases = (
+				C13CE2EB1DA9AAD1682E2161 /* [CP] Check Pods Manifest.lock */,
 				F57C3D8E1E515C9800A8480C /* Sources */,
 				F57C3D8F1E515C9800A8480C /* Frameworks */,
 				F57C3D901E515C9800A8480C /* Resources */,
+				689925A2AE28B1734154E484 /* [CP] Embed Pods Frameworks */,
+				08162FFEAFCF3F04D1E095A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F57C3DAC1E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecordUITests" */;
 			buildPhases = (
+				1412C5F993FAD93BE9AA3B97 /* [CP] Check Pods Manifest.lock */,
 				F57C3D991E515C9800A8480C /* Sources */,
 				F57C3D9A1E515C9800A8480C /* Frameworks */,
 				F57C3D9B1E515C9800A8480C /* Resources */,
+				835A6EF4F4901CF1706743EE /* [CP] Embed Pods Frameworks */,
+				F27184B99DED1128ED344D73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +319,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08162FFEAFCF3F04D1E095A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicRecordTests/Pods-PicRecordTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1412C5F993FAD93BE9AA3B97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DFC5BB439E16F1E966091B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		555A6B052788092E7955E85C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicRecord/Pods-PicRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		689925A2AE28B1734154E484 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicRecordTests/Pods-PicRecordTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		835A6EF4F4901CF1706743EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicRecordUITests/Pods-PicRecordUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13CE2EB1DA9AAD1682E2161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9272DA548D0E2D363355EB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicRecord/Pods-PicRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27184B99DED1128ED344D73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicRecordUITests/Pods-PicRecordUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F57C3D751E515C9800A8480C /* Sources */ = {
@@ -423,6 +610,7 @@
 		};
 		F57C3DA71E515C9800A8480C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C23611A5C357278A2E1ECC /* Pods-PicRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4LPHNA9H37;
@@ -435,6 +623,7 @@
 		};
 		F57C3DA81E515C9800A8480C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828EE892D784277F5FBFBC51 /* Pods-PicRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4LPHNA9H37;
@@ -447,6 +636,7 @@
 		};
 		F57C3DAA1E515C9800A8480C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489F0342A6046B83E882EF25 /* Pods-PicRecordTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QM8BHT4C8A;
@@ -460,6 +650,7 @@
 		};
 		F57C3DAB1E515C9800A8480C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61B138311F59B89B064611C /* Pods-PicRecordTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QM8BHT4C8A;
@@ -473,6 +664,7 @@
 		};
 		F57C3DAD1E515C9800A8480C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C8A4D9A0F88EA9F7222880 /* Pods-PicRecordUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = QM8BHT4C8A;
 				INFOPLIST_FILE = PicRecordUITests/Info.plist;
@@ -485,6 +677,7 @@
 		};
 		F57C3DAE1E515C9800A8480C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FEB4C553CE7934A1E6B84E7 /* Pods-PicRecordUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = QM8BHT4C8A;
 				INFOPLIST_FILE = PicRecordUITests/Info.plist;
