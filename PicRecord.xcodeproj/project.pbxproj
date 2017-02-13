@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F57C3D7E1E515C9800A8480C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D7D1E515C9800A8480C /* main.m */; };
+		F57C3D811E515C9800A8480C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D801E515C9800A8480C /* AppDelegate.m */; };
+		F57C3D841E515C9800A8480C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D831E515C9800A8480C /* ViewController.m */; };
+		F57C3D871E515C9800A8480C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57C3D851E515C9800A8480C /* Main.storyboard */; };
+		F57C3D891E515C9800A8480C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57C3D881E515C9800A8480C /* Assets.xcassets */; };
+		F57C3D8C1E515C9800A8480C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57C3D8A1E515C9800A8480C /* LaunchScreen.storyboard */; };
+		F57C3D971E515C9800A8480C /* PicRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D961E515C9800A8480C /* PicRecordTests.m */; };
+		F57C3DA21E515C9800A8480C /* PicRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3DA11E515C9800A8480C /* PicRecordUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F57C3D931E515C9800A8480C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57C3D711E515C9800A8480C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57C3D781E515C9800A8480C;
+			remoteInfo = PicRecord;
+		};
+		F57C3D9E1E515C9800A8480C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57C3D711E515C9800A8480C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57C3D781E515C9800A8480C;
+			remoteInfo = PicRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F57C3D791E515C9800A8480C /* PicRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57C3D7D1E515C9800A8480C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F57C3D7F1E515C9800A8480C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F57C3D801E515C9800A8480C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F57C3D821E515C9800A8480C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F57C3D831E515C9800A8480C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F57C3D861E515C9800A8480C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F57C3D881E515C9800A8480C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F57C3D8B1E515C9800A8480C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F57C3D8D1E515C9800A8480C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57C3D921E515C9800A8480C /* PicRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57C3D961E515C9800A8480C /* PicRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicRecordTests.m; sourceTree = "<group>"; };
+		F57C3D981E515C9800A8480C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57C3D9D1E515C9800A8480C /* PicRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57C3DA11E515C9800A8480C /* PicRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicRecordUITests.m; sourceTree = "<group>"; };
+		F57C3DA31E515C9800A8480C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F57C3D761E515C9800A8480C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57C3D8F1E515C9800A8480C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57C3D9A1E515C9800A8480C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F57C3D701E515C9800A8480C = {
+			isa = PBXGroup;
+			children = (
+				F57C3D7B1E515C9800A8480C /* PicRecord */,
+				F57C3D951E515C9800A8480C /* PicRecordTests */,
+				F57C3DA01E515C9800A8480C /* PicRecordUITests */,
+				F57C3D7A1E515C9800A8480C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F57C3D7A1E515C9800A8480C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F57C3D791E515C9800A8480C /* PicRecord.app */,
+				F57C3D921E515C9800A8480C /* PicRecordTests.xctest */,
+				F57C3D9D1E515C9800A8480C /* PicRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F57C3D7B1E515C9800A8480C /* PicRecord */ = {
+			isa = PBXGroup;
+			children = (
+				F57C3D7F1E515C9800A8480C /* AppDelegate.h */,
+				F57C3D801E515C9800A8480C /* AppDelegate.m */,
+				F57C3D821E515C9800A8480C /* ViewController.h */,
+				F57C3D831E515C9800A8480C /* ViewController.m */,
+				F57C3D851E515C9800A8480C /* Main.storyboard */,
+				F57C3D881E515C9800A8480C /* Assets.xcassets */,
+				F57C3D8A1E515C9800A8480C /* LaunchScreen.storyboard */,
+				F57C3D8D1E515C9800A8480C /* Info.plist */,
+				F57C3D7C1E515C9800A8480C /* Supporting Files */,
+			);
+			path = PicRecord;
+			sourceTree = "<group>";
+		};
+		F57C3D7C1E515C9800A8480C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F57C3D7D1E515C9800A8480C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F57C3D951E515C9800A8480C /* PicRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				F57C3D961E515C9800A8480C /* PicRecordTests.m */,
+				F57C3D981E515C9800A8480C /* Info.plist */,
+			);
+			path = PicRecordTests;
+			sourceTree = "<group>";
+		};
+		F57C3DA01E515C9800A8480C /* PicRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F57C3DA11E515C9800A8480C /* PicRecordUITests.m */,
+				F57C3DA31E515C9800A8480C /* Info.plist */,
+			);
+			path = PicRecordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F57C3D781E515C9800A8480C /* PicRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57C3DA61E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecord" */;
+			buildPhases = (
+				F57C3D751E515C9800A8480C /* Sources */,
+				F57C3D761E515C9800A8480C /* Frameworks */,
+				F57C3D771E515C9800A8480C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicRecord;
+			productName = PicRecord;
+			productReference = F57C3D791E515C9800A8480C /* PicRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F57C3D911E515C9800A8480C /* PicRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57C3DA91E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecordTests" */;
+			buildPhases = (
+				F57C3D8E1E515C9800A8480C /* Sources */,
+				F57C3D8F1E515C9800A8480C /* Frameworks */,
+				F57C3D901E515C9800A8480C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57C3D941E515C9800A8480C /* PBXTargetDependency */,
+			);
+			name = PicRecordTests;
+			productName = PicRecordTests;
+			productReference = F57C3D921E515C9800A8480C /* PicRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F57C3D9C1E515C9800A8480C /* PicRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57C3DAC1E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecordUITests" */;
+			buildPhases = (
+				F57C3D991E515C9800A8480C /* Sources */,
+				F57C3D9A1E515C9800A8480C /* Frameworks */,
+				F57C3D9B1E515C9800A8480C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57C3D9F1E515C9800A8480C /* PBXTargetDependency */,
+			);
+			name = PicRecordUITests;
+			productName = PicRecordUITests;
+			productReference = F57C3D9D1E515C9800A8480C /* PicRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F57C3D711E515C9800A8480C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Junne;
+				TargetAttributes = {
+					F57C3D781E515C9800A8480C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QM8BHT4C8A;
+						ProvisioningStyle = Automatic;
+					};
+					F57C3D911E515C9800A8480C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QM8BHT4C8A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F57C3D781E515C9800A8480C;
+					};
+					F57C3D9C1E515C9800A8480C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QM8BHT4C8A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F57C3D781E515C9800A8480C;
+					};
+				};
+			};
+			buildConfigurationList = F57C3D741E515C9800A8480C /* Build configuration list for PBXProject "PicRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F57C3D701E515C9800A8480C;
+			productRefGroup = F57C3D7A1E515C9800A8480C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F57C3D781E515C9800A8480C /* PicRecord */,
+				F57C3D911E515C9800A8480C /* PicRecordTests */,
+				F57C3D9C1E515C9800A8480C /* PicRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F57C3D771E515C9800A8480C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57C3D8C1E515C9800A8480C /* LaunchScreen.storyboard in Resources */,
+				F57C3D891E515C9800A8480C /* Assets.xcassets in Resources */,
+				F57C3D871E515C9800A8480C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57C3D901E515C9800A8480C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57C3D9B1E515C9800A8480C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F57C3D751E515C9800A8480C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57C3D841E515C9800A8480C /* ViewController.m in Sources */,
+				F57C3D811E515C9800A8480C /* AppDelegate.m in Sources */,
+				F57C3D7E1E515C9800A8480C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57C3D8E1E515C9800A8480C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57C3D971E515C9800A8480C /* PicRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57C3D991E515C9800A8480C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57C3DA21E515C9800A8480C /* PicRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F57C3D941E515C9800A8480C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57C3D781E515C9800A8480C /* PicRecord */;
+			targetProxy = F57C3D931E515C9800A8480C /* PBXContainerItemProxy */;
+		};
+		F57C3D9F1E515C9800A8480C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57C3D781E515C9800A8480C /* PicRecord */;
+			targetProxy = F57C3D9E1E515C9800A8480C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F57C3D851E515C9800A8480C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57C3D861E515C9800A8480C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F57C3D8A1E515C9800A8480C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57C3D8B1E515C9800A8480C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F57C3DA41E515C9800A8480C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F57C3DA51E515C9800A8480C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F57C3DA71E515C9800A8480C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QM8BHT4C8A;
+				INFOPLIST_FILE = PicRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PicRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F57C3DA81E515C9800A8480C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QM8BHT4C8A;
+				INFOPLIST_FILE = PicRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PicRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F57C3DAA1E515C9800A8480C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QM8BHT4C8A;
+				INFOPLIST_FILE = PicRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PicRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicRecord.app/PicRecord";
+			};
+			name = Debug;
+		};
+		F57C3DAB1E515C9800A8480C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QM8BHT4C8A;
+				INFOPLIST_FILE = PicRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PicRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicRecord.app/PicRecord";
+			};
+			name = Release;
+		};
+		F57C3DAD1E515C9800A8480C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QM8BHT4C8A;
+				INFOPLIST_FILE = PicRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PicRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicRecord;
+			};
+			name = Debug;
+		};
+		F57C3DAE1E515C9800A8480C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QM8BHT4C8A;
+				INFOPLIST_FILE = PicRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PicRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F57C3D741E515C9800A8480C /* Build configuration list for PBXProject "PicRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57C3DA41E515C9800A8480C /* Debug */,
+				F57C3DA51E515C9800A8480C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57C3DA61E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57C3DA71E515C9800A8480C /* Debug */,
+				F57C3DA81E515C9800A8480C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F57C3DA91E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57C3DAA1E515C9800A8480C /* Debug */,
+				F57C3DAB1E515C9800A8480C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F57C3DAC1E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57C3DAD1E515C9800A8480C /* Debug */,
+				F57C3DAE1E515C9800A8480C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F57C3D711E515C9800A8480C /* Project object */;
+}
