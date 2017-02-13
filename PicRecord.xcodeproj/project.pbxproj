@@ -207,7 +207,7 @@
 				TargetAttributes = {
 					F57C3D781E515C9800A8480C = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = QM8BHT4C8A;
+						DevelopmentTeam = 4LPHNA9H37;
 						ProvisioningStyle = Automatic;
 					};
 					F57C3D911E515C9800A8480C = {
@@ -425,10 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QM8BHT4C8A;
+				DEVELOPMENT_TEAM = 4LPHNA9H37;
 				INFOPLIST_FILE = PicRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PicRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PictureRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,10 +437,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QM8BHT4C8A;
+				DEVELOPMENT_TEAM = 4LPHNA9H37;
 				INFOPLIST_FILE = PicRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PicRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.junne.PictureRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
