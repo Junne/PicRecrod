@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4ECC44EA0752D4750EC95836666714B08782CE80",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4ECC44EA0752D4750EC95836666714B08782CE80" : 9223372036854775807,
+    "4685252C50EB71BE214FB3EB9D1D9BC1B27D9601" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E135C04A-8D11-47AE-AFA1-E91520F43DB5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4ECC44EA0752D4750EC95836666714B08782CE80" : "PicRecord\/",
+    "4685252C50EB71BE214FB3EB9D1D9BC1B27D9601" : "PRHomeModule_Category\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PicRecord",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PicRecord.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Junne\/PRHomeModule_Category.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4685252C50EB71BE214FB3EB9D1D9BC1B27D9601"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Junne\/PicRecrod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4ECC44EA0752D4750EC95836666714B08782CE80"
+    }
+  ]
+}

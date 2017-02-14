@@ -5,6 +5,7 @@ target 'PicRecord' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
   pod "CTMediator"
+  pod "PRHomeModule_Category", :path => "../PRHomeModule_Category"
   # Pods for PicRecord
 
   target 'PicRecordTests' do

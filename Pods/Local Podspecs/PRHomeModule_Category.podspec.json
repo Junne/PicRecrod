@@ -1,0 +1,28 @@
+{
+  "name": "PRHomeModule_Category",
+  "version": "1",
+  "summary": "PRHomeModule_Category.",
+  "description": "this is PRHomeModule_Category",
+  "homepage": "https://github.com/Junne/PRHomeModule_Category",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/Junne/PRHomeModule_Category.git",
+    "tag": "1"
+  },
+  "source_files": "PRHomeModule_Category/PRHomeModule_Category/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

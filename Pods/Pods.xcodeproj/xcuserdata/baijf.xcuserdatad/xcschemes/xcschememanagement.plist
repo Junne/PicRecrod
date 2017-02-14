@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PRHomeModule_Category.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-PicRecord.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +32,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9BE0C9CB6CAAF3AC366B9B8319941DA8</key>
+		<key>123A56D31755E246247DB6D94456DA22</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>AB8D6F1B5E4EA6A89075331F3DF1C479</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C124BC077F710BE061A408C9567E2BCD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

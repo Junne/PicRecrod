@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '123A56D31755E246247DB6D94456DA22'
-               BlueprintName = 'Pods-PicRecord'
+               BlueprintIdentifier = 'C124BC077F710BE061A408C9567E2BCD'
+               BlueprintName = 'PRHomeModule_Category'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-PicRecord.a'>
+               BuildableName = 'libPRHomeModule_Category.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
