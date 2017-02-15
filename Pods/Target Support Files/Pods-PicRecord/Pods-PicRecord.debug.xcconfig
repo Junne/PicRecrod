@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/PRHomeModule_Category"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CTMediator" "$PODS_CONFIGURATION_BUILD_DIR/PRHomeModule_Category"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CTMediator" -isystem "${PODS_ROOT}/Headers/Public/PRHomeModule_Category"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"CTMediator" -l"PRHomeModule_Category"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/PRHomeModule" "${PODS_ROOT}/Headers/Public/PRHomeModule_Category"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CTMediator" "$PODS_CONFIGURATION_BUILD_DIR/PRHomeModule" "$PODS_CONFIGURATION_BUILD_DIR/PRHomeModule_Category"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CTMediator" -isystem "${PODS_ROOT}/Headers/Public/PRHomeModule" -isystem "${PODS_ROOT}/Headers/Public/PRHomeModule_Category"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CTMediator" -l"PRHomeModule" -l"PRHomeModule_Category"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

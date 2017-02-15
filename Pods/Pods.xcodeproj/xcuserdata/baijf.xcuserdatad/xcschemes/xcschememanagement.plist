@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PRHomeModule.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>PRHomeModule_Category.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>123A56D31755E246247DB6D94456DA22</key>
+		<key>222DB055AFF3F052388CE2A341FC671A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>557289489BFB0C909DA49DA56195C50E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C124BC077F710BE061A408C9567E2BCD</key>
+		<key>ACDB3CA8D91344F7164C3F71EA0476EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

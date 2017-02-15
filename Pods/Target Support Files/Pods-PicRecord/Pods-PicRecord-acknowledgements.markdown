@@ -6,6 +6,11 @@ This application makes use of the following third party libraries:
 MIT
 
 
+## PRHomeModule
+
+MIT
+
+
 ## PRHomeModule_Category
 
 MIT
