@@ -1,5 +1,5 @@
 //
-//  TargetPRHome.h
+//  Target_PRHome.h
 //  PRHomeModule
 //
 //  Created by baijf on 15/02/2017.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TargetPRHome : NSObject
+@interface Target_PRHome : NSObject
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params;
 

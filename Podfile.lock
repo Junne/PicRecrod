@@ -1,19 +1,19 @@
 PODS:
   - CTMediator (0.0.2)
-  - PRHomeModule (1.0)
-  - PRHomeModule_Category (1.0):
+  - PRHomeModule (1.1.1)
+  - PRHomeModule_Category (1.1):
     - CTMediator
 
 DEPENDENCIES:
   - CTMediator
-  - PRHomeModule (= 1.0)
-  - PRHomeModule_Category (= 1.0)
+  - PRHomeModule (~> 1.0)
+  - PRHomeModule_Category (~> 1.0)
 
 SPEC CHECKSUMS:
   CTMediator: da466319e36f9e0d033af4769c0741d04c6b14c5
-  PRHomeModule: 55742691e9612bc1a97b85eed78485672cf27fca
-  PRHomeModule_Category: 41749376a95b3d2a422be3e292d0adb58eca9631
+  PRHomeModule: 31cfd63a900ff4607fa49486c8ffafc1ff10f03c
+  PRHomeModule_Category: aa4085a60ba60f1a0d3b54bef0de9a532c4fe69a
 
-PODFILE CHECKSUM: 73db1c78d73d6b6fd6cdc4b42b28a6dc43478ebc
+PODFILE CHECKSUM: 32c34177b70b7cfd6dba6f0e7415fb294762c30c
 
 COCOAPODS: 1.1.1

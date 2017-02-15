@@ -9,8 +9,8 @@ target 'PicRecord' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
   pod "CTMediator"
-  pod "PRHomeModule", "1.0"
-  pod "PRHomeModule_Category", "1.0"
+  pod "PRHomeModule", '~> 1.0'
+  pod "PRHomeModule_Category", '~> 1.0'
   # Pods for PicRecord
 
   target 'PicRecordTests' do

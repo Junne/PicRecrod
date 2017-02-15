@@ -7,6 +7,7 @@
 //
 
 #import <CTMediator/CTMediator.h>
+#import <UIKit/UIKit.h>
 
 @interface CTMediator (PRHomeModule)
 

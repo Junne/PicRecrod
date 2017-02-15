@@ -10,15 +10,15 @@
 		0D4CDC1A0B8EC79851ED4C2B285C4660 /* Pods-PicRecordTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C10AF89DB4950DD57AA7F6DE8DC52D9D /* Pods-PicRecordTests-dummy.m */; };
 		224F5095F53E0352B7E2C5C252E53054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		279344B6FED2C6A1E06C8C1F378A23C5 /* CTMediator+PRHomeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1C46C289A6F1C4ADD479D726D15524 /* CTMediator+PRHomeModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6302EB495A8426004B5035D9E3298506 /* TargetPRHome.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAC344628F13071535E73D298563AB0 /* TargetPRHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6631226852BD783EA6C0743681CF9B45 /* TargetPRHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F0FA626AF968BD7CDC77504FACF47 /* TargetPRHome.m */; };
-		8C1B44244D898891C067BC190A3D97CE /* PRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80953954F379AD13235412369CB41355 /* PRHomeViewController.m */; };
+		32186A0E8354228491011DA0E6BE2DF5 /* Target_PRHome.h in Headers */ = {isa = PBXBuildFile; fileRef = 12188D4EB1AA1362E83FC826CCBB486C /* Target_PRHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71760D236639237F84C2F8E7A4FCE04E /* PRHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ED78470650A99DC276376F60915356A3 /* PRHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7763239B5F85AE3EBFD4F1490AA3E8 /* PRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C4B88D2B7017B4E6E3B00FE7D281BE /* PRHomeViewController.m */; };
 		A1C2EAAAAC6FB90B82C5472AF367D7ED /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8D2B8B2AFB5FA3F5B70E6269D6ABE3 /* CTMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AA6CBB48552D37BCEB9C003E6985CB1E /* PRHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5C8662623D1E1C64EAF6E7DD3E45F9 /* PRHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABAD5776A9DE85259011A34922EF46E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		AD871390200B9DA2A55A9A5407EA1563 /* Pods-PicRecordUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 109C64CE4A89680EF40E72D3FF7EBA9A /* Pods-PicRecordUITests-dummy.m */; };
-		AF3C7D09E25F34A1ECDD1044838EE6FE /* PRHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8906A76ED99D060D87CC336AC67A2375 /* PRHomeModule-dummy.m */; };
+		B4E530FDBA05003BDE55FF4004EB22AD /* Target_PRHome.m in Sources */ = {isa = PBXBuildFile; fileRef = DE783D5579EA90A1E813A61DA0740F4B /* Target_PRHome.m */; };
 		BFC6A8F139E62D90EC58D8ADCDDC715E /* CTMediator+PRHomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 36746AAE0ED0D33C423D212731715049 /* CTMediator+PRHomeModule.m */; };
+		CF8BAE6A08482935900376772E0E56D5 /* PRHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F417BD4F837CC6716CF641396EEA17 /* PRHomeModule-dummy.m */; };
 		D1A0EA01E704A225F0226886B13D12B9 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F34612868B839B5A19B45848BD551 /* CTMediator-dummy.m */; };
 		D1D1BE122065ED2D22B586E34E0AEAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		DC4268338A1FF55A0DB862FEF01BA5F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -65,31 +65,28 @@
 		05DB37BEB14A855660D6806429E486BB /* Pods-PicRecordUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicRecordUITests-resources.sh"; sourceTree = "<group>"; };
 		0B1C46C289A6F1C4ADD479D726D15524 /* CTMediator+PRHomeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+PRHomeModule.h"; path = "PRHomeModule_Category/PRHomeModule_Category/CTMediator+PRHomeModule.h"; sourceTree = "<group>"; };
 		0B218C826DB3C95B2DED4E73113C1CEC /* libPods-PicRecordTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PicRecordTests.a"; path = "libPods-PicRecordTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CAC344628F13071535E73D298563AB0 /* TargetPRHome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TargetPRHome.h; path = PRHomeModule/PRHomeModule/Targets/TargetPRHome.h; sourceTree = "<group>"; };
 		109C64CE4A89680EF40E72D3FF7EBA9A /* Pods-PicRecordUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicRecordUITests-dummy.m"; sourceTree = "<group>"; };
+		12188D4EB1AA1362E83FC826CCBB486C /* Target_PRHome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_PRHome.h; path = PRHomeModule/PRHomeModule/Targets/Target_PRHome.h; sourceTree = "<group>"; };
 		1676D30BC9440B0DE8DCF20F8F3B6907 /* Pods-PicRecordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicRecordTests.release.xcconfig"; sourceTree = "<group>"; };
 		16F8BCFCD15E39CEFE87A2282C7FCF71 /* Pods-PicRecordUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PicRecordUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		18B55A91A23BFB2C2CDE13D7EFCF1744 /* Pods-PicRecordTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PicRecordTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2545578AA550B43D21977131AF4B8ABC /* PRHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRHomeModule.xcconfig; sourceTree = "<group>"; };
+		278E7346CCD9EE3CFA27DB514D7AA2C1 /* PRHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRHomeModule.xcconfig; sourceTree = "<group>"; };
 		2BA8AC745B72DFC78F43F5ABF68787DD /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
 		36746AAE0ED0D33C423D212731715049 /* CTMediator+PRHomeModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+PRHomeModule.m"; path = "PRHomeModule_Category/PRHomeModule_Category/CTMediator+PRHomeModule.m"; sourceTree = "<group>"; };
-		401E73077B15662AE03DC4A44484C1D8 /* PRHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRHomeModule-prefix.pch"; sourceTree = "<group>"; };
 		443E96E1B2F7CE1229ABA1D060ED2FD8 /* Pods-PicRecordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicRecordUITests.release.xcconfig"; sourceTree = "<group>"; };
 		44B2F509A119C6625BCD9BF92B619BBE /* Pods-PicRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicRecord.release.xcconfig"; sourceTree = "<group>"; };
 		498E976A293A86BB2294CBDE827CC78B /* libPRHomeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPRHomeModule.a; path = libPRHomeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		577D35EDCAB9246EC812542CA8920B51 /* Pods-PicRecordTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicRecordTests-frameworks.sh"; sourceTree = "<group>"; };
 		5F93A885507A58ED91141BE1C5E90059 /* Pods-PicRecord-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicRecord-resources.sh"; sourceTree = "<group>"; };
 		5FB1905D283B443E57D6A319BDBB10D5 /* PRHomeModule_Category.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRHomeModule_Category.xcconfig; sourceTree = "<group>"; };
-		636F0FA626AF968BD7CDC77504FACF47 /* TargetPRHome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TargetPRHome.m; path = PRHomeModule/PRHomeModule/Targets/TargetPRHome.m; sourceTree = "<group>"; };
 		6BFE6F1870E145EE0EB2BB6EF0002E3B /* libPods-PicRecordUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PicRecordUITests.a"; path = "libPods-PicRecordUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C1CCAD89B90DCDC31AD0B96410A380 /* Pods-PicRecord-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicRecord-frameworks.sh"; sourceTree = "<group>"; };
+		77C4B88D2B7017B4E6E3B00FE7D281BE /* PRHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PRHomeViewController.m; path = PRHomeModule/PRHomeModule/PRHomeViewController.m; sourceTree = "<group>"; };
 		787F79A81EAC58E4C2053B290100E796 /* Pods-PicRecordUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PicRecordUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79F417BD4F837CC6716CF641396EEA17 /* PRHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRHomeModule-dummy.m"; sourceTree = "<group>"; };
 		7B34E4A2E8C1EC3860671A936FD90A68 /* Pods-PicRecordTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PicRecordTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7C8D2B8B2AFB5FA3F5B70E6269D6ABE3 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
-		7D5C8662623D1E1C64EAF6E7DD3E45F9 /* PRHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PRHomeViewController.h; path = PRHomeModule/PRHomeModule/PRHomeViewController.h; sourceTree = "<group>"; };
-		80953954F379AD13235412369CB41355 /* PRHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PRHomeViewController.m; path = PRHomeModule/PRHomeModule/PRHomeViewController.m; sourceTree = "<group>"; };
 		830E1C6E11CB01F8D3B4ED9F4E6CE3A2 /* libPRHomeModule_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPRHomeModule_Category.a; path = libPRHomeModule_Category.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8906A76ED99D060D87CC336AC67A2375 /* PRHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRHomeModule-dummy.m"; sourceTree = "<group>"; };
 		8A332DC97ABC9D6B139B060F42D8F748 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		8D62E025E0DEDB4D69E5D6B38516D227 /* Pods-PicRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -99,6 +96,7 @@
 		AF16CFF3A4BBF47CFBA488E8F3791BCB /* Pods-PicRecordUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PicRecordUITests-frameworks.sh"; sourceTree = "<group>"; };
 		AFFC64F7E6C4C1F47F3ABDDA21265EE4 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		B69A31B2668CEB554659E378E8A15ED8 /* PRHomeModule_Category-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRHomeModule_Category-dummy.m"; sourceTree = "<group>"; };
+		BB6DA249B11173DB3433DBAE9EF294BB /* PRHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRHomeModule-prefix.pch"; sourceTree = "<group>"; };
 		C10AF89DB4950DD57AA7F6DE8DC52D9D /* Pods-PicRecordTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicRecordTests-dummy.m"; sourceTree = "<group>"; };
 		C498016967DB594EC537B3E42563E5F1 /* Pods-PicRecord-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PicRecord-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8A81728A04AB836E6EE97BA85C349B6 /* Pods-PicRecord-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PicRecord-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -106,6 +104,8 @@
 		D08F34612868B839B5A19B45848BD551 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		D0B0B5D00598132019700B27420F506A /* Pods-PicRecordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicRecordTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D48730EDEC08F792D0DE5373A3086A04 /* Pods-PicRecordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PicRecordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE783D5579EA90A1E813A61DA0740F4B /* Target_PRHome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_PRHome.m; path = PRHomeModule/PRHomeModule/Targets/Target_PRHome.m; sourceTree = "<group>"; };
+		ED78470650A99DC276376F60915356A3 /* PRHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PRHomeViewController.h; path = PRHomeModule/PRHomeModule/PRHomeViewController.h; sourceTree = "<group>"; };
 		F1169B9FB640DF0392A7CF3573AC028B /* Pods-PicRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PicRecord-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,23 +189,10 @@
 			isa = PBXGroup;
 			children = (
 				A36D16676B5EC87A920CF326B39D498A /* CTMediator */,
-				3A8CAA6C3635781949842A553FCFA5D0 /* PRHomeModule */,
+				F87764E9DB482A9C2E06531E80C142E0 /* PRHomeModule */,
 				6242137723E735C8283C4BDA74505FC7 /* PRHomeModule_Category */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		3A8CAA6C3635781949842A553FCFA5D0 /* PRHomeModule */ = {
-			isa = PBXGroup;
-			children = (
-				7D5C8662623D1E1C64EAF6E7DD3E45F9 /* PRHomeViewController.h */,
-				80953954F379AD13235412369CB41355 /* PRHomeViewController.m */,
-				0CAC344628F13071535E73D298563AB0 /* TargetPRHome.h */,
-				636F0FA626AF968BD7CDC77504FACF47 /* TargetPRHome.m */,
-				759317C9F1730335BDDE3DFDDF17FEEA /* Support Files */,
-			);
-			name = PRHomeModule;
-			path = PRHomeModule;
 			sourceTree = "<group>";
 		};
 		6242137723E735C8283C4BDA74505FC7 /* PRHomeModule_Category */ = {
@@ -219,23 +206,23 @@
 			path = PRHomeModule_Category;
 			sourceTree = "<group>";
 		};
+		69979B4045975AEC3B66B7ACE2AD853E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				278E7346CCD9EE3CFA27DB514D7AA2C1 /* PRHomeModule.xcconfig */,
+				79F417BD4F837CC6716CF641396EEA17 /* PRHomeModule-dummy.m */,
+				BB6DA249B11173DB3433DBAE9EF294BB /* PRHomeModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PRHomeModule";
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		759317C9F1730335BDDE3DFDDF17FEEA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2545578AA550B43D21977131AF4B8ABC /* PRHomeModule.xcconfig */,
-				8906A76ED99D060D87CC336AC67A2375 /* PRHomeModule-dummy.m */,
-				401E73077B15662AE03DC4A44484C1D8 /* PRHomeModule-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PRHomeModule";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -334,6 +321,19 @@
 			path = "Target Support Files/Pods-PicRecordTests";
 			sourceTree = "<group>";
 		};
+		F87764E9DB482A9C2E06531E80C142E0 /* PRHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				ED78470650A99DC276376F60915356A3 /* PRHomeViewController.h */,
+				77C4B88D2B7017B4E6E3B00FE7D281BE /* PRHomeViewController.m */,
+				12188D4EB1AA1362E83FC826CCBB486C /* Target_PRHome.h */,
+				DE783D5579EA90A1E813A61DA0740F4B /* Target_PRHome.m */,
+				69979B4045975AEC3B66B7ACE2AD853E /* Support Files */,
+			);
+			name = PRHomeModule;
+			path = PRHomeModule;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -345,20 +345,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01CC16D2CD505B8AF5908A82B19E5E1E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA6CBB48552D37BCEB9C003E6985CB1E /* PRHomeViewController.h in Headers */,
-				6302EB495A8426004B5035D9E3298506 /* TargetPRHome.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4928C77C7B4D975A0F53053D2A5A5CE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F0A974D75663AACCF158A394DBC37450 /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F480A67FE1B46E90300220063F2E5EEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71760D236639237F84C2F8E7A4FCE04E /* PRHomeViewController.h in Headers */,
+				32186A0E8354228491011DA0E6BE2DF5 /* Target_PRHome.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,9 +369,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CE5F42D20B3D289ECAE46C58418780C /* Build configuration list for PBXNativeTarget "PRHomeModule" */;
 			buildPhases = (
-				64AC42A5AC0E874C1D33183858163BFA /* Sources */,
+				0EED36FD1F2B7224825B8B93445A4CBC /* Sources */,
 				D1D2D5DFAF5CC0237C7BB913D0B47926 /* Frameworks */,
-				01CC16D2CD505B8AF5908A82B19E5E1E /* Headers */,
+				F480A67FE1B46E90300220063F2E5EEF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -509,21 +509,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0EED36FD1F2B7224825B8B93445A4CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8BAE6A08482935900376772E0E56D5 /* PRHomeModule-dummy.m in Sources */,
+				8E7763239B5F85AE3EBFD4F1490AA3E8 /* PRHomeViewController.m in Sources */,
+				B4E530FDBA05003BDE55FF4004EB22AD /* Target_PRHome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1922D0AF8C36F9D044D0890C907E0B51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0D4CDC1A0B8EC79851ED4C2B285C4660 /* Pods-PicRecordTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64AC42A5AC0E874C1D33183858163BFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF3C7D09E25F34A1ECDD1044838EE6FE /* PRHomeModule-dummy.m in Sources */,
-				8C1B44244D898891C067BC190A3D97CE /* PRHomeViewController.m in Sources */,
-				6631226852BD783EA6C0743681CF9B45 /* TargetPRHome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,7 +653,7 @@
 		};
 		43766529AC5A93209A0D11EE275ED833 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2545578AA550B43D21977131AF4B8ABC /* PRHomeModule.xcconfig */;
+			baseConfigurationReference = 278E7346CCD9EE3CFA27DB514D7AA2C1 /* PRHomeModule.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -812,7 +812,7 @@
 		};
 		99A8848829C71DE39488F127494E65D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2545578AA550B43D21977131AF4B8ABC /* PRHomeModule.xcconfig */;
+			baseConfigurationReference = 278E7346CCD9EE3CFA27DB514D7AA2C1 /* PRHomeModule.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

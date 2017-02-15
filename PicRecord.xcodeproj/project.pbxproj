@@ -12,12 +12,12 @@
 		C332E976530CC0903B46379E /* libPods-PicRecordUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 000CEAF164220FA8B8A129DA /* libPods-PicRecordUITests.a */; };
 		F57C3D7E1E515C9800A8480C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D7D1E515C9800A8480C /* main.m */; };
 		F57C3D811E515C9800A8480C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D801E515C9800A8480C /* AppDelegate.m */; };
-		F57C3D841E515C9800A8480C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D831E515C9800A8480C /* ViewController.m */; };
 		F57C3D871E515C9800A8480C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57C3D851E515C9800A8480C /* Main.storyboard */; };
 		F57C3D891E515C9800A8480C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57C3D881E515C9800A8480C /* Assets.xcassets */; };
 		F57C3D8C1E515C9800A8480C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57C3D8A1E515C9800A8480C /* LaunchScreen.storyboard */; };
 		F57C3D971E515C9800A8480C /* PicRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D961E515C9800A8480C /* PicRecordTests.m */; };
 		F57C3DA21E515C9800A8480C /* PicRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3DA11E515C9800A8480C /* PicRecordUITests.m */; };
+		F57C3E3B1E5448B400A8480C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3E3A1E5448B400A8480C /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,6 @@
 		F57C3D7D1E515C9800A8480C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F57C3D7F1E515C9800A8480C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F57C3D801E515C9800A8480C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F57C3D821E515C9800A8480C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F57C3D831E515C9800A8480C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F57C3D861E515C9800A8480C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F57C3D881E515C9800A8480C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F57C3D8B1E515C9800A8480C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +61,8 @@
 		F57C3D9D1E515C9800A8480C /* PicRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57C3DA11E515C9800A8480C /* PicRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicRecordUITests.m; sourceTree = "<group>"; };
 		F57C3DA31E515C9800A8480C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57C3E391E5448B400A8480C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F57C3E3A1E5448B400A8480C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +143,8 @@
 			children = (
 				F57C3D7F1E515C9800A8480C /* AppDelegate.h */,
 				F57C3D801E515C9800A8480C /* AppDelegate.m */,
-				F57C3D821E515C9800A8480C /* ViewController.h */,
-				F57C3D831E515C9800A8480C /* ViewController.m */,
+				F57C3E391E5448B400A8480C /* MainViewController.h */,
+				F57C3E3A1E5448B400A8480C /* MainViewController.m */,
 				F57C3D851E515C9800A8480C /* Main.storyboard */,
 				F57C3D881E515C9800A8480C /* Assets.xcassets */,
 				F57C3D8A1E515C9800A8480C /* LaunchScreen.storyboard */,
@@ -463,8 +463,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57C3D841E515C9800A8480C /* ViewController.m in Sources */,
 				F57C3D811E515C9800A8480C /* AppDelegate.m in Sources */,
+				F57C3E3B1E5448B400A8480C /* MainViewController.m in Sources */,
 				F57C3D7E1E515C9800A8480C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -707,6 +707,7 @@
 				F57C3DA81E515C9800A8480C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F57C3DA91E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecordTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +716,7 @@
 				F57C3DAB1E515C9800A8480C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F57C3DAC1E515C9800A8480C /* Build configuration list for PBXNativeTarget "PicRecordUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +725,7 @@
 				F57C3DAE1E515C9800A8480C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
