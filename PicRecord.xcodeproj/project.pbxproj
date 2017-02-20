@@ -10,6 +10,8 @@
 		2F55A0BDC8B8E47104F23E8B /* libPods-PicRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19465198487EC464AE801472 /* libPods-PicRecord.a */; };
 		67E0D327A30C78113AECD722 /* libPods-PicRecordTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C314D5F6C36E775D16839FC1 /* libPods-PicRecordTests.a */; };
 		C332E976530CC0903B46379E /* libPods-PicRecordUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 000CEAF164220FA8B8A129DA /* libPods-PicRecordUITests.a */; };
+		F54B572E1E5ACDE5000F3D3D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54B572D1E5ACDE5000F3D3D /* Home.storyboard */; };
+		F54B57331E5ACF6F000F3D3D /* PRStoryboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B57321E5ACF6F000F3D3D /* PRStoryboardManager.m */; };
 		F57C3D7E1E515C9800A8480C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D7D1E515C9800A8480C /* main.m */; };
 		F57C3D811E515C9800A8480C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3D801E515C9800A8480C /* AppDelegate.m */; };
 		F57C3D871E515C9800A8480C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57C3D851E515C9800A8480C /* Main.storyboard */; };
@@ -47,6 +49,9 @@
 		828EE892D784277F5FBFBC51 /* Pods-PicRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicRecord/Pods-PicRecord.release.xcconfig"; sourceTree = "<group>"; };
 		C314D5F6C36E775D16839FC1 /* libPods-PicRecordTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PicRecordTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61B138311F59B89B064611C /* Pods-PicRecordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicRecordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicRecordTests/Pods-PicRecordTests.release.xcconfig"; sourceTree = "<group>"; };
+		F54B572D1E5ACDE5000F3D3D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		F54B57311E5ACF6F000F3D3D /* PRStoryboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRStoryboardManager.h; sourceTree = "<group>"; };
+		F54B57321E5ACF6F000F3D3D /* PRStoryboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRStoryboardManager.m; sourceTree = "<group>"; };
 		F57C3D791E515C9800A8480C /* PicRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57C3D7D1E515C9800A8480C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F57C3D7F1E515C9800A8480C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +121,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F54B572C1E5ACDD2000F3D3D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F54B572D1E5ACDE5000F3D3D /* Home.storyboard */,
+				F54B57311E5ACF6F000F3D3D /* PRStoryboardManager.h */,
+				F54B57321E5ACF6F000F3D3D /* PRStoryboardManager.m */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		F57C3D701E515C9800A8480C = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +156,7 @@
 		F57C3D7B1E515C9800A8480C /* PicRecord */ = {
 			isa = PBXGroup;
 			children = (
+				F54B572C1E5ACDD2000F3D3D /* Storyboards */,
 				F57C3D7F1E515C9800A8480C /* AppDelegate.h */,
 				F57C3D801E515C9800A8480C /* AppDelegate.m */,
 				F57C3E391E5448B400A8480C /* MainViewController.h */,
@@ -301,6 +317,7 @@
 				F57C3D8C1E515C9800A8480C /* LaunchScreen.storyboard in Resources */,
 				F57C3D891E515C9800A8480C /* Assets.xcassets in Resources */,
 				F57C3D871E515C9800A8480C /* Main.storyboard in Resources */,
+				F54B572E1E5ACDE5000F3D3D /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +482,7 @@
 			files = (
 				F57C3D811E515C9800A8480C /* AppDelegate.m in Sources */,
 				F57C3E3B1E5448B400A8480C /* MainViewController.m in Sources */,
+				F54B57331E5ACF6F000F3D3D /* PRStoryboardManager.m in Sources */,
 				F57C3D7E1E515C9800A8480C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

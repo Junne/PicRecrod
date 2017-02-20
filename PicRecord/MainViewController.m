@@ -12,6 +12,7 @@
 @interface MainViewController ()
 
 @property(nonatomic, strong) UIViewController *homeViewController;
+@property(nonatomic, strong) UIViewController *mapViewController;
 
 @end
 
@@ -20,16 +21,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupTabBarViewControllers];
-    // Do any additional setup after loading the view.
 }
 
 #pragma mark - set up Tabbar
 
 - (void)setupTabBarViewControllers
 {
+    self.tabBar.barTintColor = [UIColor whiteColor];
+    self.tabBar.backgroundColor = [UIColor whiteColor];
+    self.tabBar.tintColor = [UIColor colorWithRed:0.95 green:0.64 blue:0.91 alpha:1.00];
+    
     self.homeViewController = [[CTMediator sharedInstance] PRHomeModule_homeViewController];
-    self.homeViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"图记" image:[UIImage imageNamed:@"tabbar_home"] selectedImage:[UIImage imageNamed:@"tabbar_home_highlight"]];
-    self.viewControllers = @[self.homeViewController];
+    UINavigationController *homeNavigation = [[UINavigationController alloc] initWithRootViewController:self.homeViewController];
+    homeNavigation.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"记录" image:[UIImage imageNamed:@"tabbar_home"] selectedImage:[UIImage imageNamed:@"tabbar_home_highlight"]];
+    
+    self.mapViewController = [[CTMediator sharedInstance] PRHomeModule_homeViewController];
+    UINavigationController *mapNavigation = [[UINavigationController alloc] initWithRootViewController:self.mapViewController];
+    mapNavigation.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"地图" image:[UIImage imageNamed:@"tabbar_map"] selectedImage:[UIImage imageNamed:@"tabbar_map_highlight"]];
+    self.viewControllers = @[homeNavigation, mapNavigation];
+    
 }
 
 - (void)didReceiveMemoryWarning {
