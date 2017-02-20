@@ -28,6 +28,7 @@
 - (void)setupTabBarViewControllers
 {
     self.homeViewController = [[CTMediator sharedInstance] PRHomeModule_homeViewController];
+    self.homeViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"图记" image:[UIImage imageNamed:@"tabbar_home"] selectedImage:[UIImage imageNamed:@"tabbar_home_highlight"]];
     self.viewControllers = @[self.homeViewController];
 }
 
